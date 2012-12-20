@@ -1,7 +1,7 @@
 /* general */
 body {
   font: 1em "lucida Grande",arial,sans-serif;
-  background: #fff url(/img/rainbow.png) repeat;
+  background: #f0f0f0;
   color: #333;
 }
 p {
@@ -9,7 +9,7 @@ p {
 }
 a {
   text-decoration: none;
-  color: #26B3CF;
+  color: #d4165c;
 }
 a:hover {
   text-decoration: underline;
@@ -125,7 +125,7 @@ img.delete {
 }
 #header {
   padding: 20px 50px 5px 50px;
-  border-bottom: 5px solid #26B3CF;
+  border-bottom: 5px solid #bce559;
   margin-bottom: 30px;
 }
 #nav {
@@ -137,7 +137,7 @@ a.nav-item {
 }
 #footer {
   margin-top: 60px;
-  background-color: #26B3CF;
+  background-color: #bce559;
   padding: 4px 50px;
   text-align: right;
 }
@@ -222,7 +222,7 @@ ul.examples li.baconfile {
 }
 .tab-current,
 .toggle-reqres-link:hover {
-  background-color: #26B3CF;
+  background-color: #d4165c;
   color: #fff;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
