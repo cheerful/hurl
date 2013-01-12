@@ -37,9 +37,9 @@ module Hurl
       def pretty_print_headers(content)
         lines = content.split("\n").map do |line|
           if line =~ /^(.+?):(.+)$/
-            "<span class='nt'>#{$1}</span>:<span class='s'>#{$2}</span>"
+            "<span class='nt'>#{Rack::Utils.escape_html($1)}</span>:<span class='s'>#{Rack::Utils.escape_html($2)}</span>"
           else
-            "<span class='nf'>#{line}</span>"
+            "<span class='nf'>#{Rack::Utils.escape_html(line)}</span>"
           end
         end
 
